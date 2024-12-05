@@ -1,0 +1,182 @@
+{
+  "Annual Crop Land:River": [
+    "Annual Crop Land typically exhibits a regular, gridded pattern with different shades of green or brown depending on the crop season.",
+    "Rivers are characterized by a serpentine or linear feature on the satellite image, appearing dark blue or black and often bordered by lighter-colored riverbanks."
+  ],
+  "Forest:Pasture Land": [
+    "Forests are often characterized by a high density of trees, a wide variety of species, closed canopies, and visible vegetation layers.",
+    "Pasture lands typically exhibit open, grassy areas with scarce or no trees, and may include signs of grazing livestock or rural infrastructure."
+  ],
+  "Annual Crop Land:Residential Buildings": [
+    "Annual Crop Land typically presents with varying shades of green arranged in repetitive patterns due to the rows of crops.",
+    "Residential Buildings are characterized by grey or brown complex structures with varying shapes and patterns, often surrounded by streets and occasionally green spaces."
+  ],
+  "Annual Crop Land:Permanent Crop Land": [
+    "Annual Crop Land typically shows distinct color variations throughout the year due to tilling, planting, and harvesting cycles.",
+    "Permanent Crop Land is characterized by relatively consistent coloring and texture year-round, given that trees, shrubs, or other perennials that do not require annual sowing."
+  ],
+  "Highway or Road:Residential Buildings": [
+    "Highways or Roads in satellite images are characterized by long, straight, or slightly curving uniform structures often connecting areas of interest.",
+    "Residential buildings, on the other hand, appear as closely packed varied structures often forming a grid-like pattern surrounded by vegetative or open spaces."
+  ],
+  "Pasture Land:Permanent Crop Land": [
+    "Pasture Land is characterized by natural vegetation, mostly grass, used for grazing livestock and typically shows less regular patterns.",
+    "Permanent Crop Land often presents man-made regular patterns, with distinctive crop lines or tree formations, and occasional technicolor variations due to diverse vegetation or crop types."
+  ],
+  "Forest:River": [
+    "Forests are characterized by a high density of green vegetation including trees, bushes, and undergrowth covering a majority of the image.",
+    "Rivers are typically identifiable by a winding blue or gray line (depending on water clarity), often with lighter colored banks on either side, cutting through the landscape in the image."
+  ],
+  "River:Residential Buildings": [
+    "Rivers often appear as meandering lines, wider than roads, rich in vegetation along their banks and frequently with visible water accentuated by specular reflectance in satellite imagery.",
+    "Residential Buildings usually demonstrate a grid-like pattern with diverse geometric shapes, varying color tones depending on the building materials, and are often surrounded by infrastructures like roads and vehicles."
+  ],
+  "Annual Crop Land:Forest": [
+    "Annual Crop Land typically shows uniform patterns with consistent coloration denoting the single type of crop planted.",
+    "Forest class looks dense with variability in color shades due to the mix of different types of trees and possibly their varying heights and sizes."
+  ],
+  "Industrial Buildings:Residential Buildings": [
+    "Industrial Buildings generally exhibit large, uniform structures often with visible features like smokestacks, cooling towers, and large parking areas.",
+    "Residential Buildings are characterized by smaller, varied structures often surrounded by vegetation and amenities such as swimming pools and playgrounds."
+  ],
+  "Forest:Residential Buildings": [
+    "Forest satellite images are characterized by a wide expanse of green, indicating dense tree coverage, and may also show irregular natural patterns.",
+    "Residential Buildings on satellite imagery are distinguished by regular geometric patterns, structured lines, and varied rooftop colors that contrast with the surrounding green or brown landscapes."
+  ],
+  "Highway or Road:River": [
+    "Highways or Roads are characterized by their uniform, consistent composition, usually appearing as straight or curving lines with a solid color, often flanked by man-made structures.",
+    "Rivers are distinguished by their snake-like, meandering patterns that exhibit variations in color and texture, often surrounded by green vegetative areas."
+  ],
+  "Annual Crop Land:Pasture Land": [
+    "Annual Crop Land typically appears as patterned, often rectangular sections in a variety of colors including green, yellow or brown depending on the growth stage.",
+    "Pasture Land usually shows as a vast uniform green stretch, occasionally interspersed with trees or hedges, indicative of grazing areas."
+  ],
+  "Annual Crop Land:Sea or Lake": [
+    "Annual Crop Land is characterized by a patchworked appearance with varying shades of green or brown, often squared or rectangular, denoting different crops or harvesting stages.",
+    "Sea or Lake is distinguished by vast areas of solid blue or blue-green, often with lighter areas representing sunlight reflections or darker patches indicating depth variations."
+  ],
+  "Highway or Road:Annual Crop Land": [
+    "Highways or Roads in satellite images are characterized by straight or slightly curved features, uniform in width, often appears grey or black, and connecting to other similar features or infrastructures.",
+    "Annual Crop Land typically appears as geometric or organized patterns with varying shades of green or brown, depending on the season and stage of the crop."
+  ],
+  "Annual Crop Land:Herbaceous Vegetation Land": [
+    "Annual Crop Land typically presents distinct, thus often straight, separation lines between different fields due to periodic planting, which shows as patchwork of various shades of green and brown.",
+    "Herbaceous Vegetation Land generally exhibits a more undifferentiated, natural pattern, appearing as a uniform expanse of green without clearly delineated plots."
+  ],
+  "Pasture Land:Residential Buildings": [
+    "Pasture Land predominantly exhibits various shades of green, is generally flat with few built structures, and may contain sporadic groups of livestock.",
+    "Residential Buildings are characterized by repeating geometric patterns, varying colors, a high concentration of built structures, often with roads, and non-green, developed areas."
+  ],
+  "Highway or Road:Forest": [
+    "Highway or Road images usually showcase parallel lines or smooth paths, adapting to terrain, often clear of heavy vegetation and surrounded by signs or vehicles.",
+    "Forest images typically exhibit dense clusters of trees, where spectral contrast is lower and the patterns are more chaotic due to foliage and possible undergrowth."
+  ],
+  "Highway or Road:Permanent Crop Land": [
+    "Highways or Roads are characterized by their sustained, straightlined appearances, often surrounded by developed or undeveloped land with no vegetative plantation visible.",
+    "Permanent Crop Lands show uniform patterns, clustered vegetation, and often have varying spectrums of green, signifying different crops or harvest stages."
+  ],
+  "Permanent Crop Land:Residential Buildings": [
+    "Permanent Crop Land typically presents with uniform coloration, well-organised and continuous landscape patterns.",
+    "Residential Buildings often exhibit diverse geometric shapes and colors alongside the presence of roads, small green spaces, or swimming pools."
+  ],
+  "River:Permanent Crop Land": [
+    "River satellite images often present as serpentine and irregularly curved patterns with different shades of blue and green, indicating the presence of water and surrounding vegetation.",
+    "Permanent Crop Land is typically characterized by highly structured and regular patterns of varying shades of green, brown, or yellow, indicating different types of crops in different stages of growth."
+  ],
+  "River:Sea or Lake": [
+    "Rivers often appear as thin and elongated patches of water, sometimes meandering, on satellite images, usually surrounded by greenery or terrestrial features.",
+    "Seas or lakes are typically large, expansive bodies of water that are visible as vast blue areas that may contain islands or be bordered by land."
+  ],
+  "Forest:Herbaceous Vegetation Land": [
+    "Forests are characterized by a high density of trees, resulting in rich shades of green and brown with a distinct textured pattern facilitated by the tree cover.",
+    "Herbaceous Vegetation Land exhibits less dense, lower, and smoother textures with varying shades of light green, reflecting the presence of grasses or other non-woody plants."
+  ],
+  "Industrial Buildings:Permanent Crop Land": [
+    "Industrial Buildings often appear as large, rectangular structures with hard edges, uniform colors and may have visible structural elements like chimneys or parking lots.",
+    "Permanent Crop Land is characterized by repetitive patterns, often forming identifiable grids of green or brown patches indicating rows of crops or orchards."
+  ],
+  "Forest:Sea or Lake": [
+    "Forests are characterized by large clusters of green trees and vegetation, dense canopies, varying textures, and an absence of uniform color patterns.",
+    "Sea or Lake images are defined by calm, uniform, and expansive blue or dark areas, often with reflection, lack of substantial texture, and shoreline edges."
+  ],
+  "River:Herbaceous Vegetation Land": [
+    "River satellite imagery usually shows a winding and continuous structure in shades of blue or brown, depending on the water's sediment content.",
+    "Herbaceous vegetation land generally appears in various shades of green with a more random and less structured pattern, indicating fields or forests."
+  ],
+  "Forest:Industrial Buildings": [
+    "Forest satellite images reveal a blend of varying shades of green, indicating dense vegetation and tree cover.",
+    "Industrial Buildings satellite images present grayish tones, rectangular built-up structures, geometrical patterns, and connecting roads."
+  ],
+  "Forest:Permanent Crop Land": [
+    "Forests typically present a dense variation in colors and textures, reflecting a mixture of trees, underbrush, and possibly wildlife in the satellite imagery.",
+    "Permanent Crop Lands generally exhibit regularly spaced patterns or neatly organized fields which suggest human intervention, often in monochromatic tones depending on the type of crop."
+  ],
+  "Herbaceous Vegetation Land:Residential Buildings": [
+    "Herbaceous Vegetation Land typically displays textures and colors of mixed greens, browns, and yellows, indicating diverse plant life.",
+    "Residential Buildings often show structured, regular patterns and man-made materials in varied colors with grey rooftops often visible from above."
+  ],
+  "Pasture Land:River": [
+    "Pasture Land typically presents as areas of uniform, green color possibly interspersed with patches of brown earth or structures associated with farming.",
+    "River areas reflect less light and typically appears as darker, meandering linear features that vary in width and course, typically surrounded by contrasting land covers."
+  ],
+  "Herbaceous Vegetation Land:Permanent Crop Land": [
+    "Herbaceous Vegetation Land is characterized by a large coverage of green cloth from non-woody plants, with different grass-like textures picked up by the satellite sensor.",
+    "Permanent Crop Land shows a geometrically organized pattern due to human cultivation, often manifested in uniform colors reflecting the particular type of crop being grown."
+  ],
+  "Annual Crop Land:Industrial Buildings": [
+    "Annual Crop Land often appears as varying shades of green in a regular, patchy quilt-like pattern with clear demarcations.",
+    "Industrial Buildings can be identified by their uniformly colored rooftops, angular shapes, and dense setup, often surrounded by roads and parking lots."
+  ],
+  "Highway or Road:Industrial Buildings": [
+    "Highways or Roads can be distinguished by their consistent linear structure, surrounded by different types of landscapes or urban development, sometimes with vehicles visible.",
+    "Industrial Buildings are usually larger, rectangular structures with visible features such as large roofs, parking lots or loading docks, often grouped together, and are located in less vegetated areas."
+  ],
+  "Highway or Road:Herbaceous Vegetation Land": [
+    "Highway or Road is characterized by a lack of vegetation and a smooth texture, often appearing as long, straight or curved man-made structures with a distinctive colour ranging from light grey to black.",
+    "Herbaceous Vegetation Land tends to have a green color and a texture that may appear random and natural, often featuring a variation of colors from budding flowers or different plant species."
+  ],
+  "Highway or Road:Pasture Land": [
+    "Highways or Roads often appear as long, straight, artificial structures, frequently dark or grey in color and crossing through various landscapes.",
+    "Pasture Lands typically exhibit a range of green hues, often characterized by uniform texture and occasionally dotted with clusters of trees or animals."
+  ],
+  "River:Industrial Buildings": [
+    "Rivers are identifiable by their characteristic sinuous shapes, varying shades of blue, green or brown, and often surrounded by areas of lush vegetation.",
+    "Industrial Buildings often present geometric patterns, constructed within grid-like road systems and vary between shades of gray or brown, could be bordered by large open spaces or parking lots."
+  ],
+  "Pasture Land:Herbaceous Vegetation Land": [
+    "Pasture Land is usually characterized by varying shades of green with visual patterns suggesting mowing or grazing, noticeable human-made structures such as fences or huts may also be visible.",
+    "Herbaceous Vegetation Land often displays a denser, wilder growth of vegetation, with a richer variety of green coloration and biodiversity but lacking signs of human intervention."
+  ],
+  "Pasture Land:Industrial Buildings": [
+    "Pasture Land typically features wide expanses of green grasslands with occasional trees scattered around, often with visible herd animals.",
+    "Industrial Buildings often appear as systematic layouts of rectangular structures with flat roofs, frequently surrounded by asphalt or concrete surfaces, exhibiting earthy or metallic color palettes."
+  ],
+  "Sea or Lake:Residential Buildings": [
+    "Sea or Lake can be recognized by the vast uninterrupted blue or green areas with no human-built structures or irregularities.",
+    "Residential Buildings are characterized by uniformly distributed rectangular shapes, often in shades of grey, brown, white or even the solar panel's reflective blue, sometimes surrounded by street grids."
+  ],
+  "Sea or Lake:Permanent Crop Land": [
+    "Sea or Lake class typically has vast, continuous areas of blue or dark water bodies, free from any presence of regular geometric shapes or segmented plots.",
+    "Permanent Crop Land is characterized by organized and large-scale patches or grid patterns in varying shades of green to brown, indicating artificial shaping and cultivation done by humans."
+  ],
+  "Sea or Lake:Highway or Road": [
+    "Sea or Lake typically features vast expanses of water, sometimes surrounded by coastal landforms or surrounded by vegetation in case of lakes.",
+    "Highway or Road usually displays stretches of man-made structures, straight or curved lines, typically grey or brown, often surrounded by other infrastructure or greenery."
+  ],
+  "Sea or Lake:Pasture Land": [
+    "Sea or Lake is characterized by a vast, continuous body of water with varying tones of blue, and in some areas, green.",
+    "Pasture Land prominently features different shades of green, interspersed with patches of brown soil, clusters of vegetation, and may include livestock."
+  ],
+  "Sea or Lake:Herbaceous Vegetation Land": [
+    "Sea or Lake satellite images typically show deep blue or dark colors representing water bodies, often accompanied by lighter color tones indicating the presence of shallow areas or landforms.",
+    "Herbaceous Vegetation Land tends to display various shades of green, representing different types of vegetation, with possible patches of brown or tan, which could indicate bare soil or dormant vegetation."
+  ],
+  "Herbaceous Vegetation Land:Industrial Buildings": [
+    "Herbaceous Vegetation Land appears in varying shades of green, often dense, and lacks the geometric structures commonly seen in built environments.",
+    "Industrial Buildings are characterized by large, rectangular structures with artificial materials, often surrounded by clearings, roads, or parking lots, and generally varying in color from gray to reddish-brown."
+  ],
+  "Industrial Buildings:Sea or Lake": [
+    "Industrial Buildings are characterized by their structured geometric shapes, reflective glass or metal surfaces, and clusters of built environment.",
+    "Sea or Lake primarily appears as a large, continuous body of water with potential wave patterns, and varying tones of blue or green depending on depth and clarity."
+  ]
+}

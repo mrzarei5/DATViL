@@ -1,0 +1,1001 @@
+{
+  "face": [
+    "a photo of a face with two eyes",
+    "a photo of a face with one nose",
+    "a photo of a face with one mouth",
+    "a photo of a face with unique facial features such as eyebrows, eyelashes, and freckles",
+    "a photo of a face with skin tone",
+    "a photo of a face with facial shape (round, oval, heart-shaped, etc)",
+    "a photo of a face with facial symmetry",
+    "a photo of a face with wrinkles, lines or other age identifiers",
+    "a photo of a face with presence of facial hair (beard, mustache, etc.)",
+    "a photo of a face with presence of accessories (glasses, earrings, etc.)"
+  ],
+  "leopard": [
+    "a photo of a leopard with large-cat body shape",
+    "a photo of a leopard with yellow fur with black spots",
+    "a photo of a leopard with rosettes pattern on skin",
+    "a photo of a leopard with powerful physique",
+    "a photo of a leopard with light-colored underbelly",
+    "a photo of a leopard with medium-sized tail",
+    "a photo of a leopard with a small, rounded head",
+    "a photo of a leopard with sharp, retractable claws"
+  ],
+  "motorbike": [
+    "a photo of a motorbike with two wheels",
+    "a photo of a motorbike with handlebars",
+    "a photo of a motorbike with seat",
+    "a photo of a motorbike with headlight",
+    "a photo of a motorbike with exhaust pipe",
+    "a photo of a motorbike with side mirrors",
+    "a photo of a motorbike with engine compartment",
+    "a photo of a motorbike with fuel tank",
+    "a photo of a motorbike with foot pegs",
+    "a photo of a motorbike with license plate."
+  ],
+  "accordion": [
+    "a photo of an accordion with rectangular shape",
+    "a photo of an accordion with pleated bellows in the middle",
+    "a photo of an accordion with keyboard on one side",
+    "a photo of an accordion with button rows on the other side",
+    "a photo of an accordion that is mostly made of wood",
+    "a photo of an accordion with straps for holding",
+    "a photo of an accordion with metallic corners and embellishments"
+  ],
+  "airplane": [
+    "a photo of an airplane with wings attached to both sides",
+    "a photo of an airplane with tail or tail wing",
+    "a photo of an airplane with small windows lined up on sides",
+    "a photo of an airplane with jet engines under wings or on the tail",
+    "a photo of an airplane with distinct \"nose\" at front",
+    "a photo of an airplane with landing gear - wheels underneath",
+    "a photo of an airplane with logo or color scheme of airlines",
+    "a photo of an airplane with streamlined, elongated shape."
+  ],
+  "anchor": [
+    "a photo of an anchor that is made of metal, usually iron or steel",
+    "a photo of an anchor with rusty or shiny finish",
+    "a photo of an anchor with fundamental \"hook\" shape",
+    "a photo of an anchor with long shaft",
+    "a photo of an anchor with curved arms with flukes at the end",
+    "a photo of an anchor with protrusion at the top for rope attachment",
+    "a photo of an anchor with heavy and solid appearance",
+    "a photo of an anchor that is usually found near water or on ships"
+  ],
+  "ant": [
+    "a photo of an ant with small size",
+    "a photo of an ant with segmented body",
+    "a photo of an ant with six legs",
+    "a photo of an ant with antennae",
+    "a photo of an ant with dark colors including black, brown, red",
+    "a photo of an ant with pincers or mandibles",
+    "a photo of an ant with prominent abdomen and thorax"
+  ],
+  "barrel": [
+    "a photo of a barrel with cylindrical shape",
+    "a photo of a barrel that is made of wood, metal, or plastic",
+    "a photo of a barrel with features metal hoops or bands",
+    "a photo of a barrel that is typically brown, but could be other colors",
+    "a photo of a barrel with flat top and bottom",
+    "a photo of a barrel with possible spout or bung hole",
+    "a photo of a barrel that can be full-sized or smaller (barrel, half-barrel, quarter-barrel)",
+    "a photo of a barrel which may display stave construction (for wooden barrels)"
+  ],
+  "bass": [
+    "a photo of a bass with large mouth",
+    "a photo of a bass with elongated body",
+    "a photo of a bass with two dorsal fins",
+    "a photo of a bass that is greenish, silver, or grey color",
+    "a photo of a bass with dark horizontal stripe along the side",
+    "a photo of a bass with spike-like rays on front dorsal fin",
+    "a photo of a bass that is generally freshwater fish",
+    "a photo of a bass with scale texture",
+    "a photo of a bass with wide forehead tapers to the eyes",
+    "a photo of a bass with round tail fin"
+  ],
+  "beaver": [
+    "a photo of a beaver with large, flat tail",
+    "a photo of a beaver with brown fur",
+    "a photo of a beaver with large front teeth",
+    "a photo of a beaver with webbed hind feet",
+    "a photo of a beaver with round body shape",
+    "a photo of a beaver with short legs",
+    "a photo of a beaver with small, rounded ears",
+    "a photo of a beaver with long incisors",
+    "a photo of a beaver with broad head",
+    "a photo of a beaver with long whiskers"
+  ],
+  "binocular": [
+    "a photo of a binocular with two circular lenses",
+    "a photo of a binocular with connecting hinge in the middle",
+    "a photo of a binocular with adjustable focus knob",
+    "a photo of a binocular with long, tubular shape",
+    "a photo of a binocular with strap attached for hanging",
+    "a photo of a binocular with eyecups for comfortable viewing",
+    "a photo of a binocular that is often black, but can be other colors"
+  ],
+  "bonsai": [
+    "a photo of a bonsai that is small-sized tree",
+    "a photo of a bonsai with decorative pot or container",
+    "a photo of a bonsai with developed roots",
+    "a photo of a bonsai with miniature tree-like shape",
+    "a photo of a bonsai with intricate branching patterns",
+    "a photo of a bonsai with lush foliage",
+    "a photo of a bonsai with trimming or wiring marks",
+    "a photo of a bonsai with artistic pruning",
+    "a photo of a bonsai which sometimes displays flowers or fruits"
+  ],
+  "brain": [
+    "a photo of a brain that is pinkish-gray color",
+    "a photo of a brain with ridge and groove pattern (gyri and sulci)",
+    "a photo of a brain with two hemispheres divided by a central fissure",
+    "a photo of a brain with bulbous frontal area (frontal lobe)",
+    "a photo of a brain with smaller, rounded back area (occipital lobe)",
+    "a photo of a brain with thick band of nerve fibers connecting hemispheres (corpus callosum)",
+    "a photo of a brain with cerebellum located at the bottom, back part of the brain",
+    "a photo of a brain with brain stem extending below the brain"
+  ],
+  "brontosaurus": [
+    "a photo of a brontosaurus with long, extended neck",
+    "a photo of a brontosaurus with quadrupedal stance",
+    "a photo of a brontosaurus with elephant-like legs",
+    "a photo of a brontosaurus with small head in relation to body",
+    "a photo of a brontosaurus with long, whip-like tail",
+    "a photo of a brontosaurus with broad, thick body",
+    "a photo of a brontosaurus that is possibly covered in scales or hard skin",
+    "a photo of a brontosaurus that is large size"
+  ],
+  "buddha": [
+    "a photo of a buddha with distinctive facial features",
+    "a photo of a buddha with half-closed eyes",
+    "a photo of a buddha with elongated earlobes",
+    "a photo of a buddha with symbolic hand gestures (mudras)",
+    "a photo of a buddha that is usually portrayed in meditative pose",
+    "a photo of a buddha that is often represented as sitting on a lotus",
+    "a photo of a buddha with traditional robes",
+    "a photo of a buddha with circular bump on the head (ushnisha)",
+    "a photo of a buddha with symbolic objects in close proximity",
+    "a photo of a buddha with halo or mandorla in some depictions",
+    "a photo of a buddha that is occasionally shown with a dot between the eyebrows"
+  ],
+  "butterfly": [
+    "a photo of a butterfly with wing shape: typically large and rounded or elongated",
+    "a photo of a butterfly with wing patterns: vivid colors, spots, stripes",
+    "a photo of a butterfly with body shape: small, elongated",
+    "a photo of a butterfly with antennae: long with clubbed ends",
+    "a photo of a butterfly with feeding apparatus (proboscis): long, coiled tube"
+  ],
+  "camera": [
+    "a photo of a camera with lens",
+    "a photo of a camera with shutter button",
+    "a photo of a camera with camera body",
+    "a photo of a camera with flashlight",
+    "a photo of a camera with viewfinder",
+    "a photo of a camera with camera brand or logo",
+    "a photo of a camera with strap",
+    "a photo of a camera with various knobs or buttons",
+    "a photo of a camera with memory card slot",
+    "a photo of a camera with battery compartment.",
+    "a photo of a camera with screen/display on the back."
+  ],
+  "cannon": [
+    "a photo of a cannon with metal or wooden barrel",
+    "a photo of a cannon that is mounted on wheels or fixed platforms",
+    "a photo of a cannon that is cylinder or tube-shaped",
+    "a photo of a cannon with wide-mouthed barrel end.",
+    "a photo of a cannon with canon balls nearby",
+    "a photo of a cannon with historical or battlefield settings",
+    "a photo of a cannon with a fuse hole at the top of the barrel",
+    "a photo of a cannon with distinctive long and narrow shape",
+    "a photo of a cannon with rust or patina from age",
+    "a photo of a cannon with handles or trunnions on the sides."
+  ],
+  "car_side": [
+    "a photo of a car side with wing mirrors",
+    "a photo of a car side with side windows",
+    "a photo of a car side with side body lines",
+    "a photo of a car side with car maker logo",
+    "a photo of a car side with fuel filler cap"
+  ],
+  "ceiling_fan": [
+    "a photo of a ceiling fan with round shape",
+    "a photo of a ceiling fan with blades extending from center",
+    "a photo of a ceiling fan that is hanging from the ceiling",
+    "a photo of a ceiling fan with rotational appearance",
+    "a photo of a ceiling fan with presence of a light fixture",
+    "a photo of a ceiling fan with switch chains dangling",
+    "a photo of a ceiling fan that is usually white, cream, or brown",
+    "a photo of a ceiling fan with metallic or wooden finish",
+    "a photo of a ceiling fan with circular motor housing."
+  ],
+  "cellphone": [
+    "a photo of a cellphone with rectangular shape",
+    "a photo of a cellphone with screen area",
+    "a photo of a cellphone with button or touch control elements",
+    "a photo of a cellphone with branding logos",
+    "a photo of a cellphone with camera lens",
+    "a photo of a cellphone with presence of a speaker/grill",
+    "a photo of a cellphone with charging and/or earphone ports",
+    "a photo of a cellphone with back cover (often glossy or metallic)",
+    "a photo of a cellphone with color and material",
+    "a photo of a cellphone with phone cases or covers"
+  ],
+  "chair": [
+    "a photo of a chair with typically four legs",
+    "a photo of a chair with seat for sitting",
+    "a photo of a chair with tall backrest",
+    "a photo of a chair with various colors and designs",
+    "a photo of a chair that is often rectangular or square in shape",
+    "a photo of a chair which can include armrests\n"
+  ],
+  "chandelier": [
+    "a photo of a chandelier with light fixture",
+    "a photo of a chandelier that is hanging from the ceiling",
+    "a photo of a chandelier with multiple arms or branches",
+    "a photo of a chandelier with decorative elements",
+    "a photo of a chandelier which emits light",
+    "a photo of a chandelier that is usually made of glass, metal, or crystal",
+    "a photo of a chandelier with ornate design",
+    "a photo of a chandelier with complex structure"
+  ],
+  "cougar_body": [
+    "a photo of a cougar body that is a large size cat",
+    "a photo of a cougar body with solid tan or light brown color",
+    "a photo of a cougar body with long body",
+    "a photo of a cougar body with powerful legs",
+    "a photo of a cougar body with round head",
+    "a photo of a cougar body with tail is long with black tip",
+    "a photo of a cougar body with sharp claws",
+    "a photo of a cougar body with short snout",
+    "a photo of a cougar body with white or light color belly, chest, and throat."
+  ],
+  "cougar_face": [
+    "a photo of a cougar face with large cat face",
+    "a photo of a cougar face with round head shape",
+    "a photo of a cougar face with long, sharp ears",
+    "a photo of a cougar face with light brown or tan fur",
+    "a photo of a cougar face with white fur around mouth and under chin",
+    "a photo of a cougar face with a strong jawline",
+    "a photo of a cougar face with dark markings around mouth and eyes",
+    "a photo of a cougar face with round, piercing eyes, usually green or yellow."
+  ],
+  "crab": [
+    "a photo of a crab with hard exoskeleton",
+    "a photo of a crab with two large front claws",
+    "a photo of a crab with many legs (typically 8 small walking legs)",
+    "a photo of a crab with oval or rounded body",
+    "a photo of a crab that is often red, orange, or brown in color",
+    "a photo of a crab that is often seen near or in water",
+    "a photo of a crab with eyes on stalks",
+    "a photo of a crab with small antennae"
+  ],
+  "crayfish": [
+    "a photo of a crayfish with hard, segmented exoskeleton",
+    "a photo of a crayfish with two large, front-facing claws",
+    "a photo of a crayfish with long, segmented antennae",
+    "a photo of a crayfish with six pairs of appendages",
+    "a photo of a crayfish with two pairs of sensory antennules",
+    "a photo of a crayfish with five pairs of walking legs",
+    "a photo of a crayfish with tail fan with a central telson and uropods on the sides",
+    "a photo of a crayfish with various colors: brown, red, green, or blue tones"
+  ],
+  "crocodile": [
+    "a photo of a crocodile with long, narrow, v-shaped snout",
+    "a photo of a crocodile with scales",
+    "a photo of a crocodile with tail",
+    "a photo of a crocodile with short legs",
+    "a photo of a crocodile with powerful jaws",
+    "a photo of a crocodile with visible teeth",
+    "a photo of a crocodile with eyes on top of head",
+    "a photo of a crocodile with webbed feet"
+  ],
+  "crocodile_head": [
+    "a photo of a crocodile head with v-shaped snout",
+    "a photo of a crocodile head with sharp teeth visible even when mouth is closed",
+    "a photo of a crocodile head with rough, scaled skin",
+    "a photo of a crocodile head with eyes located on top of the head",
+    "a photo of a crocodile head with nostrils at the end of the snout",
+    "a photo of a crocodile head with ear slits behind the eyes",
+    "a photo of a crocodile head with distinct jaw line",
+    "a photo of a crocodile head with visible bony ridges on head"
+  ],
+  "cup": [
+    "a photo of a cup with round, hollow shape",
+    "a photo of a cup that is usually small enough to be held in one hand",
+    "a photo of a cup with flat bottom",
+    "a photo of a cup with cylindrical body",
+    "a photo of a cup which may have a handle on one side",
+    "a photo of a cup which can be made of various materials like glass, ceramic, plastic"
+  ],
+  "dalmatian": [
+    "a photo of a dalmatian with large size",
+    "a photo of a dalmatian with distinctive black spots on white coat",
+    "a photo of a dalmatian with slender body",
+    "a photo of a dalmatian with square proportioned body",
+    "a photo of a dalmatian with long tail",
+    "a photo of a dalmatian with pointed ears",
+    "a photo of a dalmatian with bright eyes",
+    "a photo of a dalmatian with broad skull",
+    "a photo of a dalmatian with muscular build"
+  ],
+  "dollar_bill": [
+    "a photo of a dollar bill that is rectangular shape",
+    "a photo of a dollar bill that is green and white color",
+    "a photo of a dollar bill with george washington portrait ($1) or other u.s. presidents ($5, $10, $20, $50, $100)",
+    "a photo of a dollar bill with symbols such as the federal reserve seal, us treasury seal",
+    "a photo of a dollar bill with serial number",
+    "a photo of a dollar bill with in god we trust phrase",
+    "a photo of a dollar bill with united states of america text",
+    "a photo of a dollar bill with pyramid with an eye image on top (only on one-dollar bill)"
+  ],
+  "dolphin": [
+    "a photo of a dolphin with long, streamlined body shape",
+    "a photo of a dolphin with curved, dorsal fin on back",
+    "a photo of a dolphin with bottle-shaped snout",
+    "a photo of a dolphin that is grey or blue-grey color",
+    "a photo of a dolphin with short flippers on sides",
+    "a photo of a dolphin with no external ear flaps",
+    "a photo of a dolphin with smooth, sleek skin",
+    "a photo of a dolphin with blowhole on top of head",
+    "a photo of a dolphin with visible teeth in open mouth",
+    "a photo of a dolphin that is typically seen in water bodies"
+  ],
+  "dragonfly": [
+    "a photo of a dragonfly with long and slender body",
+    "a photo of a dragonfly with two pairs of wide, transparent wings",
+    "a photo of a dragonfly with large, multifaceted eyes",
+    "a photo of a dragonfly with body colors can vary (blue, green, yellow, red)",
+    "a photo of a dragonfly with extended abdomen behind wings",
+    "a photo of a dragonfly with small antenna",
+    "a photo of a dragonfly with wings can hold flat and away from body during rest."
+  ],
+  "electric_guitar": [
+    "a photo of an electric guitar with six-string structure",
+    "a photo of an electric guitar with metallic parts like tuning pegs, pickups, bridge",
+    "a photo of an electric guitar with solid or hollow body",
+    "a photo of an electric guitar with various shapes (curvy, simple, complex)",
+    "a photo of an electric guitar with range of color options",
+    "a photo of an electric guitar with frets on the neck",
+    "a photo of an electric guitar that is connected to an amplifier via cable",
+    "a photo of an electric guitar with volume, tone knobs and switch selector",
+    "a photo of an electric guitar with distinct headstock design"
+  ],
+  "elephant": [
+    "a photo of an elephant with large size",
+    "a photo of an elephant with long trunk",
+    "a photo of an elephant with tusks (in some individuals)",
+    "a photo of an elephant with large ears",
+    "a photo of an elephant with grey skin",
+    "a photo of an elephant with rough skin texture",
+    "a photo of an elephant with forward-facing eyes",
+    "a photo of an elephant with sturdy, columnar legs",
+    "a photo of an elephant with small tail with tuft of hair at the end"
+  ],
+  "emu": [
+    "a photo of an emu with tall height",
+    "a photo of an emu with two legs",
+    "a photo of an emu with large eyes",
+    "a photo of an emu with feathered body",
+    "a photo of an emu with long neck",
+    "a photo of an emu with beak",
+    "a photo of an emu with brown color",
+    "a photo of an emu with extra large body size",
+    "a photo of an emu with three-toed feet"
+  ],
+  "euphonium": [
+    "a photo of an euphonium with brass color",
+    "a photo of an euphonium that is large size",
+    "a photo of an euphonium with conical bore",
+    "a photo of an euphonium with circular shape",
+    "a photo of an euphonium with four valves",
+    "a photo of an euphonium with wide, flared bell",
+    "a photo of an euphonium with long tubing wound into a coil",
+    "a photo of an euphonium which sometimes has a carrying handle"
+  ],
+  "ewer": [
+    "a photo of an ewer with jug-like shape",
+    "a photo of an ewer with single handle",
+    "a photo of an ewer with spout for pouring",
+    "a photo of an ewer with varied material (ceramic, metal, glass, plastic)",
+    "a photo of an ewer which can come in various sizes",
+    "a photo of an ewer that is often ornate or decorated",
+    "a photo of an ewer with round, bulbous body",
+    "a photo of an ewer which sometimes has a lid",
+    "a photo of an ewer that is different from other pitchers by having a more flared spout",
+    "a photo of an ewer with typical ewer form, with a wider bottom shrinking to a narrow top."
+  ],
+  "ferry": [
+    "a photo of a ferry that is large size",
+    "a photo of a ferry with water-based setting",
+    "a photo of a ferry with flat, elongated shape",
+    "a photo of a ferry with multiple decks",
+    "a photo of a ferry with lifeboats attached",
+    "a photo of a ferry with port holes/windows",
+    "a photo of a ferry with bridge structure",
+    "a photo of a ferry with raised bow and stern",
+    "a photo of a ferry with passengers or vehicles",
+    "a photo of a ferry with company logos or names on exterior"
+  ],
+  "flamingo": [
+    "a photo of a flamingo with long, thin legs",
+    "a photo of a flamingo with curved, slender neck",
+    "a photo of a flamingo that is bright pink or orange color",
+    "a photo of a flamingo with distinctive downward-bending beak",
+    "a photo of a flamingo with feather plumes",
+    "a photo of a flamingo with webbed feet",
+    "a photo of a flamingo that is usually seen standing on one leg"
+  ],
+  "flamingo_head": [
+    "a photo of a flamingo head with long, thin neck",
+    "a photo of a flamingo head with distinctive downward bending beak",
+    "a photo of a flamingo head with light pink, white, or red feathers",
+    "a photo of a flamingo head with black tipped beak",
+    "a photo of a flamingo head with beady eyes, positioned on the sides",
+    "a photo of a flamingo head that is balanced on one leg (if full body can be seen)"
+  ],
+  "garfield": [
+    "a photo of a garfield, the orange-furred cat.",
+    "a photo of a garfield with a round body shape",
+    "a photo of a garfield with big, round eyes, typically half-closed",
+    "a photo of a garfield with distinctive black stripes",
+    "a photo of a garfield with smaller stripes on the tail",
+    "a photo of a garfield that is always drawn in cartoon form",
+    "a photo of a garfield that is often depicted eating or sleeping",
+    "a photo of a garfield with a distinctive grumpy face",
+    "a photo of a garfield that is often seen with a speech bubble."
+  ],
+  "gerenuk": [
+    "a photo of a gerenuk with long, slender neck",
+    "a photo of a gerenuk with large eyes and ears",
+    "a photo of a gerenuk with flat, wedge-shaped head",
+    "a photo of a gerenuk with thin, elongated legs",
+    "a photo of a gerenuk with a light brown coat and a paler underside",
+    "a photo of a gerenuk with long, slightly spiraled, lyre-shaped horns in males.",
+    "a photo of a gerenuk with small tail",
+    "a photo of a gerenuk with narrow, pointed mouth"
+  ],
+  "gramophone": [
+    "a photo of a gramophone with large horn, often flared",
+    "a photo of a gramophone with hand-crank on side",
+    "a photo of a gramophone with turntable or disc platter",
+    "a photo of a gramophone with tonearm and stylus",
+    "a photo of a gramophone with wooden box base",
+    "a photo of a gramophone with retro or antique look",
+    "a photo of a gramophone with iconic emblem or logo"
+  ],
+  "grand_piano": [
+    "a photo of a grand piano with large, triangular shape",
+    "a photo of a grand piano with black, white, or brown polished surface",
+    "a photo of a grand piano with large curved side",
+    "a photo of a grand piano with 88 keys, white and black",
+    "a photo of a grand piano with pedals at the base",
+    "a photo of a grand piano with open lid with exposed strings and hammers",
+    "a photo of a grand piano with large size compared to other objects or people",
+    "a photo of a grand piano with bench seat next to it"
+  ],
+  "hawksbill": [
+    "a photo of a hawksbill with brown and yellow shell with a tortoise pattern",
+    "a photo of a hawksbill with hooked beak like a hawk's",
+    "a photo of a hawksbill with yellow underside",
+    "a photo of a hawksbill with flippers instead of legs",
+    "a photo of a hawksbill with large head tapering to a sharp point",
+    "a photo of a hawksbill with oversized eyes in relation to head size",
+    "a photo of a hawksbill with two pairs of prefrontal scales",
+    "a photo of a hawksbill with a relatively flat belly."
+  ],
+  "headphone": [
+    "a photo of a headphone with ear cups or earbuds",
+    "a photo of a headphone with headband or neckband",
+    "a photo of a headphone with wires or wireless technology",
+    "a photo of a headphone with audio jack/usb/bluetooth connectivity",
+    "a photo of a headphone with brands or logos",
+    "a photo of a headphone with control buttons or knobs",
+    "a photo of a headphone with varying colors and materials",
+    "a photo of a headphone with cushioned pads",
+    "a photo of a headphone with microphone attachment"
+  ],
+  "hedgehog": [
+    "a photo of a hedgehog that is small size",
+    "a photo of a hedgehog that is covered with spines",
+    "a photo of a hedgehog with small head",
+    "a photo of a hedgehog with pointed snout",
+    "a photo of a hedgehog with small, beady eyes",
+    "a photo of a hedgehog with short legs",
+    "a photo of a hedgehog with light-colored underbelly",
+    "a photo of a hedgehog with clawed feet"
+  ],
+  "helicopter": [
+    "a photo of a helicopter with main rotor on top",
+    "a photo of a helicopter with tail rotor on the back",
+    "a photo of a helicopter with a cockpit with glass windows",
+    "a photo of a helicopter with skids or wheels for landing",
+    "a photo of a helicopter that is usually crafted from metal",
+    "a photo of a helicopter with cylindrical or streamlined body shape",
+    "a photo of a helicopter which often carries a logo or specific colors",
+    "a photo of a helicopter which may have a variety of attachments such as cameras, lights, or weaponry."
+  ],
+  "ibis": [
+    "a photo of an ibis with long, curved beak",
+    "a photo of an ibis with thin legs",
+    "a photo of an ibis with s-shaped neck",
+    "a photo of an ibis with bright white, black, or pink feathers",
+    "a photo of an ibis with bald head or face in some species",
+    "a photo of an ibis that is wading in shallow water",
+    "a photo of an ibis that is often seen in groups"
+  ],
+  "inline_skate": [
+    "a photo of an inline skate with a row of wheels on the base",
+    "a photo of an inline skate with shoe-like design",
+    "a photo of an inline skate with hard shell around foot",
+    "a photo of an inline skate with ankle support",
+    "a photo of an inline skate with straps or buckles for fastening",
+    "a photo of an inline skate with brake at the back",
+    "a photo of an inline skate that is usually made from plastic, carbon, or leather material."
+  ],
+  "joshua_tree": [
+    "a photo of a joshua tree with branching pattern similar to cactus",
+    "a photo of a joshua tree with greenish-blue leaves",
+    "a photo of a joshua tree with spiky leaf edges",
+    "a photo of a joshua tree with vertical, upward orientation",
+    "a photo of a joshua tree that is frequent in desert environment",
+    "a photo of a joshua tree that is incapable of self-pollination",
+    "a photo of a joshua tree with bunches of white flowers",
+    "a photo of a joshua tree with tree-like structure, tall and narrow",
+    "a photo of a joshua tree with rough bark texture"
+  ],
+  "kangaroo": [
+    "a photo of a kangaroo with large hind legs",
+    "a photo of a kangaroo with powerful tail used for balancing",
+    "a photo of a kangaroo with small front legs",
+    "a photo of a kangaroo with signature hopping motion",
+    "a photo of a kangaroo with pouch on abdomen (in females)",
+    "a photo of a kangaroo with elongated face",
+    "a photo of a kangaroo with large, pointy ears",
+    "a photo of a kangaroo with brown, grey, or red fur"
+  ],
+  "ketch": [
+    "a photo of a ketch with two masts",
+    "a photo of a ketch with smaller mast toward the stern",
+    "a photo of a ketch with triangular sails",
+    "a photo of a ketch with longer fore than aft mast",
+    "a photo of a ketch with larger sail area on mizzenmast",
+    "a photo of a ketch with v-shaped hull",
+    "a photo of a ketch with single steering wheel"
+  ],
+  "lamp": [
+    "a photo of a lamp with lightning source",
+    "a photo of a lamp with tall or short structure",
+    "a photo of a lamp with cord connected for power",
+    "a photo of a lamp that is stationary, generally on a surface like a table or floor",
+    "a photo of a lamp with variety of shapes and sizes",
+    "a photo of a lamp that is often metallic or ceramic material",
+    "a photo of a lamp with bulb or fluorescent light tube usually present",
+    "a photo of a lamp with switch or button for operation"
+  ],
+  "laptop": [
+    "a photo of a laptop with flat, rectangular shape",
+    "a photo of a laptop with keyboard layout",
+    "a photo of a laptop with trackpad at the bottom/corner of keyboard",
+    "a photo of a laptop that is often black, silver, grey or white",
+    "a photo of a laptop with screen/monitor attached",
+    "a photo of a laptop with brand logo",
+    "a photo of a laptop with ports on the sides (usb, hdmi, sd card slot)",
+    "a photo of a laptop with webcam at the top of the screen",
+    "a photo of a laptop with possibly visible power button"
+  ],
+  "llama": [
+    "a photo of a llama that is large, long-necked animal",
+    "a photo of a llama with slender body",
+    "a photo of a llama with curved, elongated ears",
+    "a photo of a llama with thick, wooly fur",
+    "a photo of a llama that is often white, gray, brown or black",
+    "a photo of a llama with long, bushy tail",
+    "a photo of a llama with two-toed feet with thick nails",
+    "a photo of a llama with large, expressive eyes"
+  ],
+  "lobster": [
+    "a photo of a lobster with hard, segmented exoskeleton",
+    "a photo of a lobster with reddish-brown color, occasionally blue or yellow",
+    "a photo of a lobster with two large front claws, one crushing claw and one pincher claw.",
+    "a photo of a lobster with long, cylindrical body",
+    "a photo of a lobster with ten legs",
+    "a photo of a lobster with pair of antennas",
+    "a photo of a lobster with pair of compound eyes",
+    "a photo of a lobster with pointed tail, usually bent under the body"
+  ],
+  "lotus": [
+    "a photo of a lotus with large, round leaves",
+    "a photo of a lotus with pointed tip petals",
+    "a photo of a lotus with variety of colors (commonly white or pink)",
+    "a photo of a lotus with yellow center (seed pod)",
+    "a photo of a lotus that is often found in water",
+    "a photo of a lotus with tapered leaf stalk",
+    "a photo of a lotus with leaves and flowers rise above the water surface",
+    "a photo of a lotus with seeds visible in center of bloom",
+    "a photo of a lotus with smooth, clean leaves",
+    "a photo of a lotus with petals arranged in layers"
+  ],
+  "mandolin": [
+    "a photo of a mandolin with small, teardrop or round body",
+    "a photo of a mandolin with eight strings (usually in pairs)",
+    "a photo of a mandolin with long, thin, protruding neck",
+    "a photo of a mandolin with flat or slightly curved wood body",
+    "a photo of a mandolin which usually has a sound hole in the center",
+    "a photo of a mandolin with scroll near headstock (typical in f-style mandolins)",
+    "a photo of a mandolin with fretted fingerboard",
+    "a photo of a mandolin that is usually lighter in color (wooden, typically spruce or maple)"
+  ],
+  "mayfly": [
+    "a photo of a mayfly that is small size",
+    "a photo of a mayfly with transparent wings",
+    "a photo of a mayfly with long, slender body",
+    "a photo of a mayfly with two or three long tail filaments",
+    "a photo of a mayfly with antennae shorter than the head",
+    "a photo of a mayfly with two large compound eyes",
+    "a photo of a mayfly with wing veins visible",
+    "a photo of a mayfly with upward wing positioning when at rest"
+  ],
+  "menorah": [
+    "a photo of a menorah with star of david symbol",
+    "a photo of a menorah with seven or nine branches",
+    "a photo of a menorah with candle holders on top of branches",
+    "a photo of a menorah with typically metallic material (brass, silver, bronze)",
+    "a photo of a menorah with stand or base",
+    "a photo of a menorah with ornamental designs",
+    "a photo of a menorah with usually bright or polished finish"
+  ],
+  "metronome": [
+    "a photo of a metronome with pyramid or rectangular shape",
+    "a photo of a metronome with pendulum swinging",
+    "a photo of a metronome with dial or knob for adjusting tempo",
+    "a photo of a metronome with metallic or wooden material",
+    "a photo of a metronome with pointer and scale indicating beats per minute",
+    "a photo of a metronome that is small in size",
+    "a photo of a metronome which usually sits on flat surfaces"
+  ],
+  "minaret": [
+    "a photo of a minaret with tall, slender tower",
+    "a photo of a minaret with dome or cone-shaped top",
+    "a photo of a minaret with balconies",
+    "a photo of a minaret with narrow windows",
+    "a photo of a minaret that is often attached to mosque",
+    "a photo of a minaret with ornate or geometric detailing",
+    "a photo of a minaret with spiral staircase inside (not visible externally, but often inferred from architectural style)",
+    "a photo of a minaret with islamic architectural elements"
+  ],
+  "nautilus": [
+    "a photo of a nautilus with pale shell with dark-striped pattern",
+    "a photo of a nautilus with spiral-shaped shell",
+    "a photo of a nautilus with shell divided into chambers",
+    "a photo of a nautilus with tentacles",
+    "a photo of a nautilus with soft body",
+    "a photo of a nautilus with no exterior shell like other shellfish",
+    "a photo of a nautilus with small jet for underwater propulsion",
+    "a photo of a nautilus with tentacles with cirri (finger-like projections)",
+    "a photo of a nautilus with pearly, iridescent interior of shell."
+  ],
+  "octopus": [
+    "a photo of an octopus with eight arms",
+    "a photo of an octopus with sucker cups on arms",
+    "a photo of an octopus with central body",
+    "a photo of an octopus with elongated head",
+    "a photo of an octopus with prominent eyes",
+    "a photo of an octopus with soft, flexible body",
+    "a photo of an octopus with changing color and texture patterns",
+    "a photo of an octopus with no skeletal structure",
+    "a photo of an octopus with two side gills",
+    "a photo of an octopus that is usually found in underwater surroundings"
+  ],
+  "okapi": [
+    "a photo of an okapi with horse-like body",
+    "a photo of an okapi with zebra-like stripes on legs and hindquarters",
+    "a photo of an okapi with brown fur on body",
+    "a photo of an okapi with a long, giraffe-like neck",
+    "a photo of an okapi with large, flexible ears",
+    "a photo of an okapi with white \"socks\" on legs",
+    "a photo of an okapi with small, hair-covered horns on males",
+    "a photo of an okapi with long, blue-black tongue"
+  ],
+  "pagoda": [
+    "a photo of a pagoda with multi-tiered tower",
+    "a photo of a pagoda with east asian architectural style",
+    "a photo of a pagoda that is commonly made of wood, bricks, or stone",
+    "a photo of a pagoda with eaves that curve upwards",
+    "a photo of a pagoda that is possibly surrounded by temple structures or a garden",
+    "a photo of a pagoda that is ornamented with carvings or religious symbols",
+    "a photo of a pagoda which tends to be tall and narrow",
+    "a photo of a pagoda with presence of buddha or other religious statues inside or nearby"
+  ],
+  "panda": [
+    "a photo of a panda with black and white fur",
+    "a photo of a panda with round body shape",
+    "a photo of a panda with large, black patches around eyes",
+    "a photo of a panda with big paws with sharp claws",
+    "a photo of a panda which eats bamboo",
+    "a photo of a panda with small ears",
+    "a photo of a panda with cuddly appearance"
+  ],
+  "pigeon": [
+    "a photo of a pigeon that is small bird",
+    "a photo of a pigeon that is typically grey or white body",
+    "a photo of a pigeon with round body and small head",
+    "a photo of a pigeon with short legs",
+    "a photo of a pigeon with orange, red or multicolored eyes",
+    "a photo of a pigeon with pointy wings",
+    "a photo of a pigeon with short beak with fleshy cere (the soft area where the beak joins the forehead)",
+    "a photo of a pigeon with unique chest movement while breathing"
+  ],
+  "pizza": [
+    "a photo of a pizza with round, oval or rectangular shape",
+    "a photo of a pizza with cheese melting or bubbling",
+    "a photo of a pizza with various toppings like bell peppers, mushrooms, olives, pepperoni",
+    "a photo of a pizza with crispy or soft crust edges",
+    "a photo of a pizza with red tomato sauce",
+    "a photo of a pizza that is cut into triangular slices",
+    "a photo of a pizza that is served on a cardboard box or plate",
+    "a photo of a pizza that is sometimes garnished with basil."
+  ],
+  "platypus": [
+    "a photo of a platypus with duck-bill",
+    "a photo of a platypus with webbed feet",
+    "a photo of a platypus with flat tail",
+    "a photo of a platypus with small eyes",
+    "a photo of a platypus that is a four-legged mammal",
+    "a photo of a platypus with fur covered body",
+    "a photo of a platypus with males with venomous spurs."
+  ],
+  "pyramid": [
+    "a photo of a pyramid with a triangular shape",
+    "a photo of a pyramid with stone or brick structure",
+    "a photo of a pyramid that is geometrically symmetric",
+    "a photo of a pyramid that is frequently located in desert",
+    "a photo of a pyramid with historic or ancient appearance",
+    "a photo of a pyramid that is large size",
+    "a photo of a pyramid with step-like features on some pyramids",
+    "a photo of a pyramid with a pointed top",
+    "a photo of a pyramid that is sometimes surrounded by palm trees or statues."
+  ],
+  "revolver": [
+    "a photo of a revolver with cylindrical chamber",
+    "a photo of a revolver with short barrel",
+    "a photo of a revolver with round trigger",
+    "a photo of a revolver with handle grip",
+    "a photo of a revolver with metallic surface",
+    "a photo of a revolver with six-bullet capacity",
+    "a photo of a revolver with hammer at the rear",
+    "a photo of a revolver with possibly engraved details",
+    "a photo of a revolver with single and double action mechanisms"
+  ],
+  "rhino": [
+    "a photo of a rhino with large body size",
+    "a photo of a rhino with bulky muscular frame",
+    "a photo of a rhino with horn or horns on the nose",
+    "a photo of a rhino with thick, grey skin",
+    "a photo of a rhino with small eyes",
+    "a photo of a rhino with flat, wide lips (white rhino) or pointed lip (black rhino)"
+  ],
+  "rooster": [
+    "a photo of a rooster with brightly colored plumage, often red, yellow, or green",
+    "a photo of a rooster with comb on top of head, sometimes asymmetrical",
+    "a photo of a rooster with thin, sharp beak",
+    "a photo of a rooster with long tail feathers with bright colors",
+    "a photo of a rooster with wattles and earlobes, commonly red",
+    "a photo of a rooster with spurs on its legs",
+    "a photo of a rooster that is bigger and brighter than hens",
+    "a photo of a rooster with rounded, upright body posture"
+  ],
+  "saxophone": [
+    "a photo of a saxophone with large conical metal body",
+    "a photo of a saxophone with gold, silver or brass color",
+    "a photo of a saxophone with curved structure with bell-shaped end",
+    "a photo of a saxophone with numerous keys and buttons",
+    "a photo of a saxophone with a long neck with a mouthpiece at the end",
+    "a photo of a saxophone with finger pads for keys",
+    "a photo of a saxophone with presence of a reed on the mouthpiece"
+  ],
+  "schooner": [
+    "a photo of a schooner with two or more masts",
+    "a photo of a schooner with wooden hull",
+    "a photo of a schooner with fore-and-aft rigged sails",
+    "a photo of a schooner with long and narrow structure",
+    "a photo of a schooner with large deck",
+    "a photo of a schooner with anchor on the side",
+    "a photo of a schooner with nautical flag poles",
+    "a photo of a schooner with ropes and riggings"
+  ],
+  "scissors": [
+    "a photo of a scissors with metallic material",
+    "a photo of a scissors with two combining levers",
+    "a photo of a scissors with sharp edges",
+    "a photo of a scissors with pointed tips",
+    "a photo of a scissors with handle with holes for fingers",
+    "a photo of a scissors with symmetrical structure",
+    "a photo of a scissors that come in a variety of sizes",
+    "a photo of a scissors with often in silver, black, or multi-colored designs"
+  ],
+  "scorpion": [
+    "a photo of a scorpion with exoskeleton",
+    "a photo of a scorpion with long, curved tail",
+    "a photo of a scorpion with two large front claws",
+    "a photo of a scorpion with eight legs",
+    "a photo of a scorpion with segmented body",
+    "a photo of a scorpion with stinger at the end of the tail",
+    "a photo of a scorpion with pair of pincers",
+    "a photo of a scorpion with slight gloss or sheen to body",
+    "a photo of a scorpion with small, mouthparts (chelicerae)"
+  ],
+  "sea_horse": [
+    "a photo of a sea horse with horse-head profile",
+    "a photo of a sea horse with coiled tail",
+    "a photo of a sea horse with small, tubular mouth",
+    "a photo of a sea horse with fins on back and sides",
+    "a photo of a sea horse with bony exoskeleton",
+    "a photo of a sea horse with vertical swimming position",
+    "a photo of a sea horse with eyes able to move independently",
+    "a photo of a sea horse with some may possess a small protrusion, or 'snout'"
+  ],
+  "snoopy": [
+    "a photo of a snoopy is a black and white beagle dog.",
+    "a photo of a snoopy with large black ears",
+    "a photo of a snoopy with distinct black spot on the back",
+    "a photo of a snoopy with a short tail",
+    "a photo of a snoopy with white body and a black head",
+    "a photo of a snoopy with a red collar",
+    "a photo of a snoopy with personified behaviors (e.g. walking upright, sleeping on top of a doghouse)",
+    "a photo of a snoopy with possibly nearby characteristic items like a red doghouse or a yellow bird (woodstock)"
+  ],
+  "soccer_ball": [
+    "a photo of a soccer ball with round shape",
+    "a photo of a soccer ball with black and white pentagonal pattern",
+    "a photo of a soccer ball with glossy surface",
+    "a photo of a soccer ball with typically 32-panel design"
+  ],
+  "stapler": [
+    "a photo of a stapler with rectangular or square shape",
+    "a photo of a stapler with metallic or plastic appearance",
+    "a photo of a stapler with two-part structure (top and bottom)",
+    "a photo of a stapler with small size",
+    "a photo of a stapler with metal rod for staple loading",
+    "a photo of a stapler with hinged design",
+    "a photo of a stapler that is typically black, silver, red, or blue",
+    "a photo of a stapler with model variations may include handheld, stand-up, or long-reach staplers"
+  ],
+  "starfish": [
+    "a photo of a starfish with five arms in most species",
+    "a photo of a starfish with star-like shape",
+    "a photo of a starfish with a variety of colors, often red, orange, ochre, brown, or purple",
+    "a photo of a starfish with texture of upper side: rough, with small bumpy protrusions",
+    "a photo of a starfish with texture of under side: smooth, with a central mouth and tube feet in grooves"
+  ],
+  "stegosaurus": [
+    "a photo of a stegosaurus with large body",
+    "a photo of a stegosaurus with quadrupedal stance (walks on four legs)",
+    "a photo of a stegosaurus with two rows of large, bony plates along its back",
+    "a photo of a stegosaurus with four sharp, pointed tail spikes",
+    "a photo of a stegosaurus with a small head and a beak",
+    "a photo of a stegosaurus with short legs, long body",
+    "a photo of a stegosaurus with pebbled, rough skin texture",
+    "a photo of a stegosaurus with oval body shape."
+  ],
+  "stop_sign": [
+    "a photo of a stop sign with octagonal shape",
+    "a photo of a stop sign that is bright red color",
+    "a photo of a stop sign with white border",
+    "a photo of a stop sign with white letters spelling 'stop'",
+    "a photo of a stop sign that is mounted on a pole",
+    "a photo of a stop sign with reflective surface"
+  ],
+  "strawberry": [
+    "a photo of a strawberry with bright red color",
+    "a photo of a strawberry that is heart or bell-shaped",
+    "a photo of a strawberry with tiny yellow seeds on outer surface",
+    "a photo of a strawberry with green leafy cap on top",
+    "a photo of a strawberry with textured skin",
+    "a photo of a strawberry with varied size",
+    "a photo of a strawberry that is often seen in clusters"
+  ],
+  "sunflower": [
+    "a photo of a sunflower with large, bright yellow petals",
+    "a photo of a sunflower with brown or black circular center",
+    "a photo of a sunflower with green leaves with serrated edges",
+    "a photo of a sunflower with tall, sturdy stem",
+    "a photo of a sunflower with orientation toward the sun",
+    "a photo of a sunflower with seeds in the center of the flower."
+  ],
+  "tick": [
+    "a photo of a tick that is small size",
+    "a photo of a tick that is round or oval shape",
+    "a photo of a tick with eight legs",
+    "a photo of a tick with dark color, typically brown or black",
+    "a photo of a tick that is flat and oval when not engorged, plump when full of blood",
+    "a photo of a tick with prominent mouthparts at the front of the body.",
+    "a photo of a tick with hard or soft body depending on species"
+  ],
+  "trilobite": [
+    "a photo of a trilobite with fossil form",
+    "a photo of a trilobite with three-lobed body",
+    "a photo of a trilobite with oval shape",
+    "a photo of a trilobite with segmented body",
+    "a photo of a trilobite with longitudinal ridge",
+    "a photo of a trilobite with rounded head (cephalon)",
+    "a photo of a trilobite with paddle-like appendages",
+    "a photo of a trilobite with tail piece (pygidium)"
+  ],
+  "umbrella": [
+    "a photo of an umbrella with dome or bell shape",
+    "a photo of an umbrella with solid or patterned colors",
+    "a photo of an umbrella with handle (straight or hooked)",
+    "a photo of an umbrella with metal spokes or frames\n",
+    "a photo of an umbrella with folded or open state",
+    "a photo of an umbrella with waterproof fabric material",
+    "a photo of an umbrella with usage in rain or sun protection"
+  ],
+  "watch": [
+    "a photo of a watch with round, square or rectangular face",
+    "a photo of a watch with analog or digital display",
+    "a photo of a watch with minute, hour, and second hands (analog)",
+    "a photo of a watch with bands made of metal, leather, or plastic",
+    "a photo of a watch with a dial featuring numbers or markers",
+    "a photo of a watch with crown on the side for adjustments",
+    "a photo of a watch with brand logo or name on the face",
+    "a photo of a watch with clasp or buckle for fastening"
+  ],
+  "water_lilly": [
+    "a photo of a water lily with floating leaves",
+    "a photo of a water lily with star-shaped petals",
+    "a photo of a water lilly with white, yellow or pink colors",
+    "a photo of a water lily with large, flat, round leaves with a notch",
+    "a photo of a water lily with a yellow center",
+    "a photo of a water lily with glossy or waxy leaf texture",
+    "a photo of a water lily that is often surrounded by lily pads"
+  ],
+  "wheelchair": [
+    "a photo of a wheelchair with metal or plastic frame",
+    "a photo of a wheelchair with wheels (typically two large at the back, two small at front)",
+    "a photo of a wheelchair with seat and backrest",
+    "a photo of a wheelchair with footplates",
+    "a photo of a wheelchair with push handles",
+    "a photo of a wheelchair with wheel locks or brakes",
+    "a photo of a wheelchair with possibly armrests",
+    "a photo of a wheelchair with cushioned surfaces",
+    "a photo of a wheelchair which may show a user seated in it."
+  ],
+  "wild_cat": [
+    "a photo of a wild cat with feline features",
+    "a photo of a wild cat that is medium to small size",
+    "a photo of a wild cat with solid, striped or spotted fur",
+    "a photo of a wild cat with variations of brown, beige, black, grey, white fur",
+    "a photo of a wild cat with large, alert eyes usually green or gold",
+    "a photo of a wild cat with sharp claws",
+    "a photo of a wild cat with long tail",
+    "a photo of a wild cat with pointed ears",
+    "a photo of a wild cat with sleek or muscular body."
+  ],
+  "windsor_chair": [
+    "a photo of a windsor chair with spindle back frame",
+    "a photo of a windsor chair with curved back",
+    "a photo of a windsor chair with straight or turned legs",
+    "a photo of a windsor chair with continuous arms",
+    "a photo of a windsor chair with central splat",
+    "a photo of a windsor chair with four-legged structure",
+    "a photo of a windsor chair with wooden material",
+    "a photo of a windsor chair with saddle-shaped seat"
+  ],
+  "wrench": [
+    "a photo of a wrench with metallic surface",
+    "a photo of a wrench that is hand tool",
+    "a photo of a wrench with long, straight handle",
+    "a photo of a wrench with u-shaped, open, or box-ended grip",
+    "a photo of a wrench with adjustable or fixed size",
+    "a photo of a wrench that is typically silver, grey, or black",
+    "a photo of a wrench which can have a ratcheting mechanism"
+  ],
+  "yin_yang": [
+    "a photo of a yin yang with black and white color",
+    "a photo of a yin yang with spherical shape",
+    "a photo of a yin yang with one dot of each color within the larger area of the opposite color",
+    "a photo of a yin yang with slight curve dividing the two halves",
+    "a photo of a yin yang with symmetrical design",
+    "a photo of a yin yang with contrasting colors"
+  ]
+}

@@ -1,0 +1,6 @@
+beta: 0.08 #For DATViL-C
+alpha: 0.5
+dataset: 'imagenetv2'
+backbone: 'RN50'
+lr_transformer : 0.00002
+lr_residual : 0.001

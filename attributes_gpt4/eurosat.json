@@ -1,0 +1,102 @@
+{
+  "Annual Crop Land": [
+    "a centered satellite photo of annual crop land with patterned and geometrical plots",
+    "a centered satellite photo of annual crop land with bright green or golden fields depending on the crop maturity",
+    "a centered satellite photo of annual crop land with presence of irrigation systems",
+    "a centered satellite photo of annual crop land with visible field boundaries",
+    "a centered satellite photo of annual crop land with frequent changes in colors within different seasons",
+    "a centered satellite photo of annual crop land with lined, plowed fields before sowing or after harvesting",
+    "a centered satellite photo of annual crop land with no or few trees and rural infrastructures"
+  ],
+  "Forest": [
+    "a centered satellite photo of forest with dense, dark green areas",
+    "a centered satellite photo of forest with textures indicating tree canopies",
+    "a centered satellite photo of forest with shadows casted by tall trees",
+    "a centered satellite photo of forest with seasonal color changes",
+    "a centered satellite photo of forest with lack of structured geometry (unlike urban areas)",
+    "a centered satellite photo of forest with presence of water bodies (lakes, rivers) might be seen in forested landscape",
+    "a centered satellite photo of forest with absence of infrastructure such as roads and buildings"
+  ],
+  "Herbaceous Vegetation Land": [
+    "a centered satellite photo of herbaceous vegetation land with uniform shades of green",
+    "a centered satellite photo of herbaceous vegetation land with absence of tree canopy",
+    "a centered satellite photo of herbaceous vegetation land with open fields of grass or herbs",
+    "a centered satellite photo of herbaceous vegetation land with low vegetation height",
+    "a centered satellite photo of herbaceous vegetation land with regular plant texture",
+    "a centered satellite photo of herbaceous vegetation land with seasonal change in color due to flowering or death",
+    "a centered satellite photo of herbaceous vegetation land with natural or artificial irrigation channels",
+    "a centered satellite photo of herbaceous vegetation land with presence of grazing animals or flocks of birds in some cases"
+  ],
+  "Highway or Road": [
+    "a centered satellite photo of highway or road with long linear structures",
+    "a centered satellite photo of highway or road that is different color from surrounding area, typically grayish",
+    "a centered satellite photo of highway or road that is often connected to bridges or tunnels",
+    "a centered satellite photo of highway or road with presence of vehicles or traffic",
+    "a centered satellite photo of highway or road which have junctions, ramps, or intersections",
+    "a centered satellite photo of highway or road that is typically wider than other lines (like rivers)",
+    "a centered satellite photo of highway or road with clear markings or lanes visible",
+    "a centered satellite photo of highway or road with roadside structures like toll booths, rest areas or gas stations",
+    "a centered satellite photo of highway or road with surrounding landscapes may appear disturbed or altered due to road construction"
+  ],
+  "Industrial Buildings": [
+    "a centered satellite photo of industrial buildings with large rectangular structures",
+    "a centered satellite photo of industrial buildings with metal rooftops",
+    "a centered satellite photo of industrial buildings with visible parking lots and roadways",
+    "a centered satellite photo of industrial buildings with adjacent railway lines or ports",
+    "a centered satellite photo of industrial buildings with presence of smokestacks",
+    "a centered satellite photo of industrial buildings with regular geometric patterns",
+    "a centered satellite photo of industrial buildings with gray, brown, or white coloration",
+    "a centered satellite photo of industrial buildings with high albedo or reflectivity",
+    "a centered satellite photo of industrial buildings with spatial arrangement in clusters",
+    "a centered satellite photo of industrial buildings with absence of greenery"
+  ],
+  "Pasture Land": [
+    "a centered satellite photo of pasture land with flat, open areas",
+    "a centered satellite photo of pasture land with uniform, bright green coloration",
+    "a centered satellite photo of pasture land with lack of tree cover",
+    "a centered satellite photo of pasture land with presence of fencing or boundaries",
+    "a centered satellite photo of pasture land with evidence of grazing animals like cattle or sheep",
+    "a centered satellite photo of pasture land with clear-cut distinction from surrounding areas",
+    "a centered satellite photo of pasture land with traces of water sources for livestock",
+    "a centered satellite photo of pasture land with possible presence of farm buildings"
+  ],
+  "Permanent Crop Land": [
+    "a centered satellite photo of permanent crop land with marked farmland areas with distinct boundaries",
+    "a centered satellite photo of permanent crop land with plots containing single type of crops",
+    "a centered satellite photo of permanent crop land with color tone changes with seasonal growth of the crops",
+    "a centered satellite photo of permanent crop land with regular geometric patterns indicating human cultivation",
+    "a centered satellite photo of permanent crop land with visible irrigation systems or infrastructure",
+    "a centered satellite photo of permanent crop land with close proximity to roads or farming facilities"
+  ],
+  "Residential Buildings": [
+    "a centered satellite photo of residential buildings with regularly spaced rectangular structures",
+    "a centered satellite photo of residential buildings with geometric patterns and lines indicating roads or paths",
+    "a centered satellite photo of residential buildings with smaller surrounding structures indicating garages or sheds",
+    "a centered satellite photo of residential buildings with individual green patches showing gardens or lawns",
+    "a centered satellite photo of residential buildings with swimming pools observable by their distinct blue color",
+    "a centered satellite photo of residential buildings with cars or other vehicles in driveways or on adjacent streets",
+    "a centered satellite photo of residential buildings with presence of solar panels on rooftops",
+    "a centered satellite photo of residential buildings with color variation in rooftops: black, brown, or grey are common."
+  ],
+  "River": [
+    "a centered satellite photo of river with linear, snaking features",
+    "a centered satellite photo of river with blue, grey, green, or brown color depending on water quality and depth",
+    "a centered satellite photo of river with reflection of sunlight off water surface",
+    "a centered satellite photo of river that is flanked by vegetation or bare land",
+    "a centered satellite photo of river that is often found in valleys or low-lying areas",
+    "a centered satellite photo of river that is wider at the mouth than at the origin",
+    "a centered satellite photo of river with presence of meanders, deltas, or islands",
+    "a centered satellite photo of river with interaction with other water bodies like lakes or seas"
+  ],
+  "Sea or Lake": [
+    "a centered satellite photo of sea or lake with vast, seemingly endless water body",
+    "a centered satellite photo of sea or lake with rich blue or green colorization",
+    "a centered satellite photo of sea or lake with reflection of sunlight",
+    "a centered satellite photo of sea or lake with surrounding landforms",
+    "a centered satellite photo of sea or lake with absence of vegetation",
+    "a centered satellite photo of sea or lake with possible presence of boats or structures over water",
+    "a centered satellite photo of sea or lake with ripples or waves on water surface",
+    "a centered satellite photo of sea or lake with waterway connections for lakes",
+    "a centered satellite photo of sea or lake with ice cover in colder regions"
+  ]
+}
