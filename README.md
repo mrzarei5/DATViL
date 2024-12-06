@@ -1,3 +1,5 @@
+# DATViL: Dual Adapter Tuning of Vision-Language Models using Large Language Models
+
 ### Requirements
 
 - **Installation**
