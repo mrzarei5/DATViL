@@ -1,5 +1,7 @@
 # DATViL: Dual Adapter Tuning of Vision-Language Models using Large Language Models
 
+This repository contains the code for ['Dual Adapter Tuning of Vision–Language Models Using Large Language Models'](https://doi.org/10.1007/s44196-025-00853-0).
+
 ### Requirements
 
 - **Installation**
@@ -22,39 +24,11 @@
 
 ### How to Run
 
-    **DATViL**
-
-    - For ImageNet dataset:
-        ```bash
-        python main_imagenet.py --config configs/imagenet.yaml --model_name datvil --root_path ./data
-        ```
-
-    - For other datasets:
-        ```bash
-        python main.py --config configs/dataset.yaml --model_name datvil --root_path ./data
-        ```
-
-    - Replace "root_path" with the path to the root folder of all datasets.
-
-    **Update Context-aware Descriptions**
-
-    Under different training settings, a trained DATViL model may result in selecting slightly different candidate classes for each test sample. Before training DATViL-C, use the following code to update the context-aware descriptions:
-
-    ```bash
-    python extract_gpt4.py --labels_file dataset_labels.json --description_file dataset.json --dataset dataset
-    ```
-
-    - Replace "labels_file" with the path to the labels file saved by DATViL.
-    - "description_file" is the path to the provided context-aware descriptions in the folder "attributes_discriminative_gpt4".
-    - Replace "dataset" with the dataset name.
-
-    **Note**: Set your OpenAI key in "extract_gpt4.py".
-
     **DATViL-C**
 
     - For ImageNet dataset:
         ```bash
-        python main_imagenet.py --config ./configs/imagenet.yaml --model_name datvilc --root_path ./data
+        python main_imagenet.py --config configs/imagenet.yaml --model_name datvilc --root_path ./data
         ```
 
     - For other datasets:
@@ -64,11 +38,39 @@
 
     - Replace "root_path" with the path to the root folder of all datasets.
 
+    **Update Context-aware Descriptions**
+
+    Under different training settings, a trained DATViL-C model may result in selecting slightly different candidate classes for each test sample. Before training DATViL, use the following code to update the context-aware descriptions:
+
+    ```bash
+    python extract_gpt4.py --labels_file dataset_labels.json --description_file dataset.json --dataset dataset
+    ```
+
+    - Replace "labels_file" with the path to the labels file saved by DATViL-C.
+    - "description_file" is the path to the provided context-aware descriptions in the folder "attributes_discriminative_gpt4".
+    - Replace "dataset" with the dataset name.
+
+    **Note**: Set your OpenAI key in "extract_gpt4.py".
+
+    **DATViL**
+
+    - For ImageNet dataset:
+        ```bash
+        python main_imagenet.py --config ./configs/imagenet.yaml --model_name datvil --root_path ./data
+        ```
+
+    - For other datasets:
+        ```bash
+        python main.py --config configs/dataset.yaml --model_name datvil --root_path ./data
+        ```
+
+    - Replace "root_path" with the path to the root folder of all datasets.
+
 - **Additional Settings**
 
-    For running DATViL and DATViL-C, adjust the training settings using the following arguments:
+    For running DATViL-C and DATViL, adjust the training settings using the following arguments:
 
     - `"shots"`: Number of shots used for training.
-    - `"per_sample_train"`: Number of per-sample training epochs in DATViL-C.
+    - `"per_sample_train"`: Number of per-sample training epochs in DATViL.
     
     Alpha and beta values, backbone type, and learning rates can be changed in dataset config files available in `./configs/`.

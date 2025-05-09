@@ -1,4 +1,4 @@
-beta: 0.08 #For DATViL-C
+beta: 0.08 #For DATViL
 alpha: 0.5
 dataset: 'ucf101'
 backbone: 'RN50'

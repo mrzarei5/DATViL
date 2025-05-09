@@ -40,8 +40,8 @@ def get_arguments():
     parser.add_argument('--shots', dest='shots', type=int, default=1, help='Number of shots')
     parser.add_argument('--root_path', dest='root_path', default='./data', help='Path to the root folder of all datasets')
     
-    parser.add_argument('--model_name', dest='model_name', default='datvil', help='The name of the model to train. It can be either datvil or datvilc' )
-    parser.add_argument('--per_sample_train', dest='per_sample_train', type=int , default=10, help='The number of per-sample training epochs in DATViL-C')
+    parser.add_argument('--model_name', dest='model_name', default='datvilc', help='The name of the model to train. It can be either datvil or datvilc' )
+    parser.add_argument('--per_sample_train', dest='per_sample_train', type=int , default=10, help='The number of per-sample training epochs in DATViL')
     parser.add_argument('--plus_residual', dest='plus_residual', type=int , default=1, help='Add residual-based adatpers')
     parser.add_argument('--plus_transform', dest='plus_transform', type=int , default=1, help='Add transormer-based adapters')
 
@@ -50,7 +50,7 @@ def get_arguments():
     return args
 
 
-def train_datvil(cfg, test_features, test_labels, att_weights, clip_model, train_loader):
+def train_datvilc(cfg, test_features, test_labels, att_weights, clip_model, train_loader):
     alpha = cfg['alpha']
     network = DATVIL(att_weights, alpha, clip_model.dtype, cfg['plus_residual'], cfg['plus_transform']).cuda()
    
@@ -104,7 +104,7 @@ def train_datvil(cfg, test_features, test_labels, att_weights, clip_model, train
         logits = 100. * test_features @ updated_classifiers.t()
         acc = cls_acc(logits, test_labels)
 
-    print("**** DATViL test accuracy: {:.2f}. ****\n".format(acc))
+    print("**** DATViL-C test accuracy: {:.2f}. ****\n".format(acc))
     
     log_file = cfg['log_file'] 
     
@@ -118,7 +118,7 @@ def train_datvil(cfg, test_features, test_labels, att_weights, clip_model, train
     return network
 
 
-def main_datvil(cfg):
+def main_datvilc(cfg):
     
     save_dir = os.path.join('./checkpoints', cfg['model_name'], cfg['dataset'] , str(cfg['shots'])+ 'shot' + '_' + str(cfg['alpha']) + 'alpha')
     os.makedirs(save_dir, exist_ok=True)
@@ -164,16 +164,16 @@ def main_datvil(cfg):
     
     cfg['log_file'] = log_file
     
-    datvil_dir = os.path.join(cfg['save_dir'],'network_'+ str(cfg['train_epoch'])+'.pth.tar')
+    datvilc_dir = os.path.join(cfg['save_dir'],'network_'+ str(cfg['train_epoch'])+'.pth.tar')
     
-    if os.path.isfile(datvil_dir):
+    if os.path.isfile(datvilc_dir):
         network = DATVIL(attributes_weights, cfg['alpha'], clip_model.dtype, cfg['plus_residual'], cfg['plus_transform']).cuda()  
-        network_saved = torch.load(datvil_dir)  
+        network_saved = torch.load(datvilc_dir)  
     
         network.load_state_dict(network_saved['model_state_dict']) 
         network.to('cuda')
     else: 
-        network = train_datvil(cfg, test_features, test_labels, attributes_weights, clip_model, train_loader)
+        network = train_datvilc(cfg, test_features, test_labels, attributes_weights, clip_model, train_loader)
     
     
     candidate_classes = extract_candidates(cfg, network, test_features, imagenet.classnames)
@@ -185,17 +185,17 @@ def main_datvil(cfg):
     return
 
 
-def train_datvilc(cfg, test_logits, test_labels, test_features, clip_model, datvil, few_shot_data_class, attributes_discriminative, topk=5):
+def train_datvil(cfg, test_logits, test_labels, test_features, clip_model, datvilc, few_shot_data_class, attributes_discriminative, topk=5):
     pred = test_logits.topk(topk, 1, True, True)[1]
 
     epoch_number = cfg['per_sample_train']
     beta = cfg['beta']
     alpha = cfg['alpha']
     
-    for param in datvil.parameters():
+    for param in datvilc.parameters():
         param.requires_grad = False
         
-    classifiers_datvil = datvil()
+    classifiers_datvilc = datvilc()
     
     correct_sample_counter = 0
     counter_all = 0
@@ -225,15 +225,15 @@ def train_datvilc(cfg, test_logits, test_labels, test_features, clip_model, datv
                 print('Context-aware descriptions for {}:{} not found. Please update the descriptions with the information of the new classes.'.format(label_key1[0], label_key1[1]))
                 continue
      
-        classifiers_datvil_selected = classifiers_datvil[candidates]
+        classifiers_datvilc_selected = classifiers_datvilc[candidates]
         
-        classifiers_datvil_selected = classifiers_datvil_selected / classifiers_datvil_selected.norm(dim = -1, keepdim=True)
+        classifiers_datvilc_selected = classifiers_datvilc_selected / classifiers_datvilc_selected.norm(dim = -1, keepdim=True)
             
 
-        datvilc = DATVIL(attributes_dicriminative_weights, alpha, clip_model.dtype, cfg['plus_residual'],cfg['plus_transform']).cuda()
+        datvil = DATVIL(attributes_dicriminative_weights, alpha, clip_model.dtype, cfg['plus_residual'],cfg['plus_transform']).cuda()
         
-        optimizer = torch.optim.AdamW([{'params':datvilc.text_attributes_weights, 'lr':cfg['lr_transformer']},
-                                    {'params':datvilc.text_attributes_residuals, 'lr':cfg['lr_residual']}], eps=1e-4)
+        optimizer = torch.optim.AdamW([{'params':datvil.text_attributes_weights, 'lr':cfg['lr_transformer']},
+                                    {'params':datvil.text_attributes_residuals, 'lr':cfg['lr_residual']}], eps=1e-4)
         scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, epoch_number)
         
         images, target = samples.cuda(), labels.cuda()
@@ -244,10 +244,10 @@ def train_datvilc(cfg, test_logits, test_labels, test_features, clip_model, datv
         
         for train_idx in range(epoch_number):
             # Train
-            classifiers_datvilc = datvilc()
-            classifiers_datvilc = classifiers_datvilc / classifiers_datvilc.norm(dim=-1, keepdim=True)
+            classifiers_datvil = datvil()
+            classifiers_datvil = classifiers_datvil / classifiers_datvil.norm(dim=-1, keepdim=True)
             
-            final_weights = classifiers_datvil_selected + beta * classifiers_datvilc
+            final_weights = classifiers_datvilc_selected + beta * classifiers_datvil
             
             final_weights = final_weights / final_weights.norm(dim=-1, keepdim=True)
             
@@ -265,10 +265,10 @@ def train_datvilc(cfg, test_logits, test_labels, test_features, clip_model, datv
        
         with torch.no_grad():
 
-            classifiers_datvilc = datvilc()
-            classifiers_datvilc = classifiers_datvilc / classifiers_datvilc.norm(dim=-1, keepdim=True)
+            classifiers_datvil = datvil()
+            classifiers_datvil = classifiers_datvil / classifiers_datvil.norm(dim=-1, keepdim=True)
             
-            final_weights = classifiers_datvil_selected + beta * classifiers_datvilc
+            final_weights = classifiers_datvilc_selected + beta * classifiers_datvil
             
             final_weights = final_weights / final_weights.norm(dim=-1, keepdim=True)
             
@@ -285,16 +285,16 @@ def train_datvilc(cfg, test_logits, test_labels, test_features, clip_model, datv
 
 
 
-def main_datvilc(cfg):    
+def main_datvil(cfg):    
     save_dir = os.path.join('./checkpoints', cfg['model_name'], cfg['dataset'] , str(cfg['shots'])+ 'shot' + '_' + str(cfg['alpha']) + 'alpha_'+ str(cfg['beta']) + 'beta')
     
     os.makedirs(save_dir, exist_ok=True)
     
     cfg['save_dir'] = save_dir
     
-    datvil_dir = os.path.join('./checkpoints', 'datvil', cfg['dataset'] , str(cfg['shots'])+ 'shot' + '_' + str(cfg['alpha']) + 'alpha')
+    datvilc_dir = os.path.join('./checkpoints', 'datvilc', cfg['dataset'] , str(cfg['shots'])+ 'shot' + '_' + str(cfg['alpha']) + 'alpha')
    
-    datvil_net_dir = os.path.join(datvil_dir,'network_'+ str(cfg['train_epoch'])+'.pth.tar')
+    datvilc_net_dir = os.path.join(datvilc_dir,'network_'+ str(cfg['train_epoch'])+'.pth.tar')
         
     print("\nRunning configs.")
     print(cfg, "\n")
@@ -334,13 +334,13 @@ def main_datvilc(cfg):
     test_features, test_labels = pre_load_features(cfg, "test", clip_model, test_loader) 
 
       
-    assert (os.path.isfile(datvil_net_dir))
+    assert (os.path.isfile(datvilc_net_dir))
  
-    datvil = DATVIL(attributes_weights, cfg['alpha'], clip_model.dtype, cfg['plus_residual'], cfg['plus_transform']).cuda()  
-    network_saved = torch.load(datvil_net_dir)  
+    datvilc = DATVIL(attributes_weights, cfg['alpha'], clip_model.dtype, cfg['plus_residual'], cfg['plus_transform']).cuda()  
+    network_saved = torch.load(datvilc_net_dir)  
 
-    datvil.load_state_dict(network_saved['model_state_dict']) 
-    datvil.to('cuda')
+    datvilc.load_state_dict(network_saved['model_state_dict']) 
+    datvilc.to('cuda')
 
     
     attribute_discriminative_path = os.path.join(cfg['root_path'],'attributes_discriminative_gpt4', cfg['dataset']+'.json')
@@ -349,13 +349,13 @@ def main_datvilc(cfg):
         attributes_discriminative = json.load(f)
 
     with torch.no_grad():  
-        classifiers = datvil()
+        classifiers = datvilc()
         classifiers /= classifiers.norm(dim=-1, keepdim=True)
         
         logits = 100. * test_features @ classifiers.t()
      
                 
-    acc_revised = train_datvilc(cfg, logits, test_labels, test_features, clip_model, datvil, few_shot_data_class, attributes_discriminative, topk=2)
+    acc_revised = train_datvil(cfg, logits, test_labels, test_features, clip_model, datvilc, few_shot_data_class, attributes_discriminative, topk=2)
     
     log_file = os.path.join(cfg['save_dir'],'log.csv')
     if not os.path.isfile(log_file):
