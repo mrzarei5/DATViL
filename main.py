@@ -20,6 +20,7 @@ import csv
 
 from networks import DATVIL
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 def serializeObject(object_,file_name):
     file_object = open(file_name,'wb')
@@ -52,7 +53,7 @@ def get_arguments():
 
 def train_datvilc(cfg, test_features, test_labels, att_weights, clip_model, train_loader):
     alpha = cfg['alpha']
-    network = DATVIL(att_weights, alpha, clip_model.dtype, cfg['plus_residual'], cfg['plus_transform']).cuda()
+    network = DATVIL(att_weights, alpha, clip_model.dtype, cfg['plus_residual'], cfg['plus_transform']).to(device)
    
     optimizer = torch.optim.AdamW([{'params':network.text_attributes_weights, 'lr':cfg['lr_transformer']},
                                    {'params':network.text_attributes_residuals, 'lr':cfg['lr_residual']}], eps=1e-4)
@@ -67,7 +68,7 @@ def train_datvilc(cfg, test_features, test_labels, att_weights, clip_model, trai
         print('Train Epoch: {:} / {:}'.format(train_idx, cfg['train_epoch']))
 
         for i, (images, target) in enumerate(tqdm(train_loader)):
-            images, target = images.cuda(), target.cuda()
+            images, target = images.to(device), target.to(device)
             with torch.no_grad():
                 image_features = clip_model.encode_image(images)
                 image_features /= image_features.norm(dim=-1, keepdim=True)
@@ -171,11 +172,11 @@ def main_datvilc(cfg):
     datvilc_dir = os.path.join(cfg['save_dir'],'network_'+ str(cfg['train_epoch'])+'.pth.tar')
     
     if os.path.isfile(datvilc_dir):
-        network = DATVIL(attributes_weights, cfg['alpha'], clip_model.dtype, cfg['plus_residual'], cfg['plus_transform']).cuda()  
+        network = DATVIL(attributes_weights, cfg['alpha'], clip_model.dtype, cfg['plus_residual'], cfg['plus_transform']).to(device) 
         network_saved = torch.load(datvilc_dir)  
     
         network.load_state_dict(network_saved['model_state_dict']) 
-        network.to('cuda')
+        network.to(device)
     else: 
         network = train_datvilc(cfg, test_features, test_labels, attributes_weights, clip_model, train_loader)
     
@@ -234,13 +235,12 @@ def train_datvil(cfg, test_logits, test_labels, test_features, clip_model, datvi
         classifiers_datvilc_selected = classifiers_datvilc_selected / classifiers_datvilc_selected.norm(dim = -1, keepdim=True)
             
 
-        datvil = DATVIL(attributes_dicriminative_weights, alpha, clip_model.dtype, cfg['plus_residual'],cfg['plus_transform']).cuda()
-        
+        datvil = DATVIL(attributes_dicriminative_weights, alpha, clip_model.dtype, cfg['plus_residual'],cfg['plus_transform']).to(device)
         optimizer = torch.optim.AdamW([{'params':datvil.text_attributes_weights, 'lr':cfg['lr_transformer']},
                                     {'params':datvil.text_attributes_residuals, 'lr':cfg['lr_residual']}], eps=1e-4)
         scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, epoch_number)
         
-        images, target = samples.cuda(), labels.cuda()
+        images, target = samples.to(device), labels.to(device)
             
         with torch.no_grad():
             image_features = clip_model.encode_image(images)
@@ -337,11 +337,11 @@ def main_datvil(cfg):
       
     assert (os.path.isfile(datvilc_net_dir))
  
-    datvilc = DATVIL(attributes_weights, cfg['alpha'], clip_model.dtype, cfg['plus_residual'], cfg['plus_transform']).cuda()  
+    datvilc = DATVIL(attributes_weights, cfg['alpha'], clip_model.dtype, cfg['plus_residual'], cfg['plus_transform']).to(device) 
     network_saved = torch.load(datvilc_net_dir)  
 
     datvilc.load_state_dict(network_saved['model_state_dict']) 
-    datvilc.to('cuda')
+    datvilc.to(device)
 
     
     attribute_discriminative_path = os.path.join(cfg['root_path'],'attributes_discriminative_gpt4', cfg['dataset']+'.json')
