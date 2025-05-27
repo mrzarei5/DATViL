@@ -1,6 +1,6 @@
 import os
 
-from .utils import Datum, DatasetBase, read_json, write_json, build_data_loader
+from .utils import Datum, DatasetBase, read_json
 
 
 template = ['a photo of a {}, a type of aircraft.']

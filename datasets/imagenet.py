@@ -1,10 +1,8 @@
 import os
-import math
 import random
 from collections import defaultdict
 from .utils import read_json
 
-import torch
 import torchvision
 import torchvision.transforms as transforms
 
@@ -173,7 +171,7 @@ imagenet_classes = ["tench", "goldfish", "great white shark", "tiger shark", "ha
                         "geyser", "lakeshore", "promontory", "sandbar", "beach", "valley", "volcano", "baseball player",
                         "bridegroom", "scuba diver", "rapeseed", "daisy", "yellow lady's slipper", "corn", "acorn",
                         "rose hip", "horse chestnut seed", "coral fungus", "agaric", "gyromitra", "stinkhorn mushroom",
-                        "earth star fungus", "hen of the woods mushroom", "bolete", "corn cob", "toilet paper"]
+                        "earth star fungus", "hen of the woods mushroom", "bolete", "corn cob", "toilet paper"] 
 
 imagenet_templates = ["itap of a {}.",
                         "a bad photo of the {}.",

@@ -1,11 +1,8 @@
 import os
-import math
 import random
 from collections import defaultdict
 
-import torchvision.transforms as transforms
-
-from .utils import Datum, DatasetBase, read_json, write_json, build_data_loader
+from .utils import Datum, DatasetBase, read_json, write_json
 
 
 template = ['a photo of a {}, a type of pet.']

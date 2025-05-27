@@ -1,6 +1,6 @@
 import os
 
-from .utils import Datum, DatasetBase, read_json, write_json, build_data_loader
+from .utils import Datum, DatasetBase, read_json
 from .oxford_pets import OxfordPets
 
 
@@ -43,7 +43,7 @@ class EuroSAT(DatasetBase):
         dataset_new = []
         for item_old in dataset_old:
             cname_old = item_old.classname
-            cname_new = NEW_CLASSNAMES[cname_old]
+            cname_new = NEW_CNAMES[cname_old]
             item_new = Datum(
                 impath=item_old.impath,
                 label=item_old.label,

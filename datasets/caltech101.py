@@ -1,6 +1,6 @@
 import os
 
-from .utils import Datum, DatasetBase, read_json
+from .utils import DatasetBase, read_json
 from .oxford_pets import OxfordPets
 
 
