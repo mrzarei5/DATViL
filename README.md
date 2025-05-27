@@ -20,6 +20,12 @@ Recent advances in vision–language models (VLMs), like CLIP, have enabled stro
 DATViL achieves state-of-the-art results on 11 diverse benchmarks across multiple few-shot settings.
 
 
+<p align="center">
+  <img src="assets/diagram.png" alt="Framework Architecture" width="600"/>
+  <br>
+  <em> Overview of DATViL. Left: DATViL leverages a pre-trained LLM to generate attribute-specific prompts for classes, subsequently utilizing these prompts to achieve adjusted classifier weights through tuning a dual-adapter model. The trained model is then employed to identify the two most probable candidate classes. Right: DATViL prompts the pre-trained LLM to generate context-aware discriminative descriptions for the candidate classes. This information is then used to train new classifier weights, which are added to the classifier weights from the previous stage. The class of the image is determined by the final classifier weights.</em>
+</p>
+
 ## Installation
 
 1. **Clone the repository**
